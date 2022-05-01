@@ -36,11 +36,12 @@ namespace Exponents
             /* calculate the square of the number and add it to the output - 
              * do this with a method call that allows you to pass the number
              * and then receive the answer */
-            UxOutputLabel.Text = "Square is: " + (num*num).ToString();
+            UxOutputLabel.Text = "Square is: " + Square(num).ToString();
             UxOutputLabel.Visible = true;
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
+            UxOutputLabel.Text += "\nCube is: ";
 
             // OUTPUT
             // set the output to visible
@@ -51,11 +52,13 @@ namespace Exponents
         public int Square(int num)
         {
             // we will create this code in class
+            return num * num;
         }
 
         public int Cube(int num)
         {
             // we will create this code in class
+            return 0;
         }
 
         private void xResetButton_Click(object sender, EventArgs e)
