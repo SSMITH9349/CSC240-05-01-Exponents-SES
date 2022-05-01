@@ -65,6 +65,10 @@ namespace Exponents
         private void xResetButton_Click(object sender, EventArgs e)
         {
             // the input and output text should be emptied
+            UxOutputLabel.Text = String.Empty;
+            UxInputTextBox.Text = String.Empty;
+
+
             // turn the output to invisible
             // turn the Go button back on
             UxGoButton.Enabled = true;
