@@ -27,8 +27,10 @@ namespace Exponents
         private void xGoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
+            int num;
 
             // INPUT
+            num = Convert.ToInt32(UxInputTextBox.Text);
 
             // PROCESS
             /* calculate the square of the number and add it to the output - 
